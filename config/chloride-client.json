@@ -1,7 +1,7 @@
 {
   "modpackMode": false,
   "fullScreen": "WINDOWED",
-  "fpsDisplayMode": "ADVANCED",
+  "fpsDisplayMode": "OFF",
   "fpsDisplayGravity": "LEFT",
   "fpsDisplaySystemMode": "OFF",
   "fpsDisplayMargin": 12,
