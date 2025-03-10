@@ -58,7 +58,6 @@ PlayerEvents.loggedIn((event) => {
 
 	for (let i = 0; i < global.debugUserName.length; i++) {
 		if (player.username === global.debugUserName[i]) {
-			server.tell(Text.translate("message.new_create.debug.getItemId", [player.username]))
 			// 遍历Tag
 			Ingredient.of("#minecraft:sand")
 				.getItemIds()
@@ -81,7 +80,7 @@ BlockEvents.rightClicked((event) => {
 		if (event.hand !== "MAIN_HAND" &&
 			player.crouching &&
 			player.username === global.debugUserName[i]) {
-			player.tell(Text.translate("message.new_create.debug.getHardness", [blockHardness]))
+			player.tell(Text.translate("message." + global.namespace + ".debug.getHardness", [blockHardness]))
 		}
 	}
 })

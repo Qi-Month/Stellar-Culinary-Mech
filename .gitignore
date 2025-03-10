@@ -11,7 +11,8 @@ options.txt
 xaero*
 .vscode
 saves/!Debug
-data
+saves
+/data
 modernfix
 usercache.json
 usernamecache.json
