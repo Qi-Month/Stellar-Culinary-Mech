@@ -1,0 +1,102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "362EFC1B75B50D8C"
+	group: "2F8CCC6164B23CF5"
+	id: "362EFC1B75B50D8C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["看见那些树苗了吗？选一种！随便种！"]
+			id: "56FB365FFAF351E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "237CFBEA234CE74F"
+				table_id: 5951448982410208937L
+				type: "choice"
+			}]
+			subtitle: "万物之源"
+			tasks: [{
+				id: "5A5E144006B0E4E0"
+				title: "启动！！！"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56FB365FFAF351E0"]
+			description: ["为了保证生态平衡，你一定想要更多的树苗种类，所以你可以在商店购买或者后期制作"]
+			id: "2BC38CE70E7DD35E"
+			subtitle: "生态平衡是一件很重要的事"
+			tasks: [{
+				id: "3241DF14A51ACBD0"
+				title: "如果你想种别的"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56FB365FFAF351E0"]
+			description: [""]
+			id: "050214230114A302"
+			subtitle: "你就不好奇是谁制作了这个屌炸天的整合包吗？"
+			tasks: [{
+				id: "4771FE1CF025575F"
+				title: "制作者名单"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2BC38CE70E7DD35E"
+				"050214230114A302"
+				"56FB365FFAF351E0"
+			]
+			id: "43B5433973183638"
+			subtitle: "谁能拒绝一个能买能卖的商店呢？"
+			tasks: [{
+				id: "63607E8C83530337"
+				title: "商店？"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43B5433973183638"]
+			id: "546F6D813E2621BE"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamerule keepInventory true"
+				id: "085B4B8B6C561B7B"
+				title: "高兴不掉落"
+				type: "command"
+			}]
+			subtitle: "你也不希望脚滑掉进虚空什么都没有了的吧？"
+			tasks: [{
+				id: "0C8FF4661B6E745C"
+				title: "死亡不掉落"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["546F6D813E2621BE"]
+			id: "3410F9CF8E00ECE6"
+			tasks: [{
+				id: "6C520DAA2A86068F"
+				title: "开始你的冒险吧"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+	]
+	title: "星际炊事班"
+}
