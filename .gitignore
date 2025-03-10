@@ -11,6 +11,7 @@ options.txt
 xaero*
 .vscode
 saves/!Debug
+saves
 data
 modernfix
 usercache.json
@@ -22,4 +23,4 @@ skyblockbuilder
 星际炊事班-natives
 .idea
 星际炊事班.*
-probejs.json
+/PCL
