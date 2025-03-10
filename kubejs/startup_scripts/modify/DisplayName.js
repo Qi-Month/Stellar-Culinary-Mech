@@ -1,4 +1,4 @@
-function dsn(namespace, displayName) {
+function modifyDisplayName(namespace, displayName) {
 	Platform.getInfo(namespace).name = displayName
 }
-dsn("kubejs", "Stellar Culinary Mech")
+modifyDisplayName("kubejs", "Stellar Culinary Mech")
