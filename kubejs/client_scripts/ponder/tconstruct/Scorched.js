@@ -6,32 +6,27 @@ Ponder.registry((event) => {
 			scene.showBasePlate()
 			scene.idle(20)
 			scene.scaleSceneView(0.7)
-
 			// 显示底部
 			scene.world.showSection([6, 1, 2, 2, 1, 6], Direction.DOWN)
 			scene.idle(20)
 			scene.text(50, "§b底部由最大为16x16的\n§b矩形焦褐砖块构成", [3, 3, 3])
 			scene.overlay.showOutline("red", {}, [6, 1, 2, 2, 1, 6], 60)
 			scene.idle(60)
-
 			// 显示三部件
 			scene.world.showSection([4, 2, 2, 2, 2, 2], Direction.DOWN)
 			scene.text(35, "第二层任意方向我们依次放上\n§b熔铸炉控制器\n§b燃料储罐\n§b焦褐排液口")
 				.attachKeyFrame()
 			scene.idle(30)
-
 			// 控制器
 			scene.overlay.showOutline("red", {}, [4, 2, 2], 30)
 			scene.text(20, "§b熔铸炉控制器", [4.5, 2.5, 2])
 				.placeNearTarget()
 			scene.idle(30)
-
 			// 燃料储罐
 			scene.overlay.showOutline("red", {}, [3, 2, 2], 30)
 			scene.text(20, "§b燃料储罐", [3.5, 2.5, 2])
 				.placeNearTarget()
 			scene.idle(30)
-
 			// 排液口
 			scene.overlay.showOutline("red", {}, [2, 2, 2], 30)
 			scene.text(20, "§b焦褐排液口", [2.5, 2.5, 2])
@@ -52,7 +47,6 @@ Ponder.registry((event) => {
 				scene.idle(2)
 			}
 			scene.idle(20)
-
 			// 浇筑口和工作方块
 			scene.addKeyframe()
 			scene.world.showSection([1, 2, 2], Direction.EAST)
@@ -64,7 +58,6 @@ Ponder.registry((event) => {
 			// 增高
 			scene.text(30, "§b此外,我们也可以用砖块继续搭高")
 				.attachKeyFrame()
-				
 			// 显示各砖块
 			let brick_1 = [
 				[6, 3, 2], [5, 3, 2], [4, 3, 2], [3, 3, 2], [2, 3, 2],
