@@ -4,7 +4,7 @@ oculus.properties
 /logs
 fancymenu_data
 local
-/mods*
+/mods
 /tacz*
 rhino*
 options.txt
@@ -19,3 +19,4 @@ resourcepacks/!Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
 /backups
 screenshots
 skyblockbuilder
+星际炊事班-natives
