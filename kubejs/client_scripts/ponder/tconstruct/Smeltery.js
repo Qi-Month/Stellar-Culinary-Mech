@@ -6,33 +6,35 @@ Ponder.registry((event) => {
 			scene.showBasePlate()
 			scene.idle(20)
 			scene.scaleSceneView(0.7)
+
 			// 显示炉子底部
 			scene.world.showSection([5, 1, 3, 3, 1, 5], Direction.DOWN)
 			scene.idle(20)
 			scene.text(60, "§b底部由最大为11x11的\n§b矩形焦黑砖块构成", [3, 3, 3])
 			scene.overlay.showOutline("green", {}, [5, 1, 3, 3, 1, 5], 60)
 			scene.idle(60)
+
 			// 显示三个部件
 			scene.world.showSection([5, 2, 2, 3, 2, 2], Direction.SOUTH)
-			// attachKeyFrame表示直接在文字处创建关键帧
 			scene.text(35, "第二层任意方向我们依次放上\n§b燃料储罐\n§b冶炼炉控制器\n§b排液口")
 				.attachKeyFrame()
 			scene.idle(30)
 			scene.overlay.showOutline("blue", {}, [5, 2, 2], 30)
-			scene.text(20, "§b焦黑储罐", [4, 4.5, 0])
+			scene.text(20, "§b焦黑储罐", [5.5, 2.5, 2])
 				.placeNearTarget()
 			scene.idle(30)
 			scene.overlay.showOutline("blue", {}, [4, 2, 2], 30)
-			scene.text(20, "§b冶炼炉控制器", [3, 4.5, 0])
+			scene.text(20, "§b冶炼炉控制器", [4.5, 2.5, 2])
 				.placeNearTarget()
 			scene.idle(30)
 			scene.overlay.showOutline("blue", {}, [3, 2, 2], 30)
-			scene.text(20, "§b焦黑排液口", [2, 4.5, 0])
+			scene.text(20, "§b焦黑排液口", [3.5, 2.5, 2])
 				.placeNearTarget()
 			scene.idle(40)
 
 			scene.text(30, "§b剩余的面用焦黑砖块补上\n§b同时将浇筑口也放到排液口前")
 				.attachKeyFrame()
+
 			// 显示各砖块
 			let bricks = [
 				[2, 2, 3], [2, 2, 4], [2, 2, 5],
@@ -56,6 +58,7 @@ Ponder.registry((event) => {
 			//加高
 			scene.text(30, "§b此外,我们也可以用砖块继续搭高")
 				.attachKeyFrame()
+
 			// 显示各砖块
 			let brick_1 = [
 				[2, 3, 3], [2, 3, 4], [2, 3, 5],
@@ -98,6 +101,7 @@ Ponder.registry((event) => {
 				scene.idle(1)
 			}
 			scene.idle(20)
+
 			// 提示
 			scene.addKeyframe()
 			scene.overlay.showOutline("red", {}, [5, 2, 2], 60)
