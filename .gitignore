@@ -4,7 +4,7 @@ oculus.properties
 /logs
 fancymenu_data
 local
-/mods
+/mods*
 /tacz*
 rhino*
 options.txt
@@ -16,3 +16,6 @@ modernfix
 usercache.json
 usernamecache.json
 resourcepacks/!Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip
+/backups
+screenshots
+skyblockbuilder
