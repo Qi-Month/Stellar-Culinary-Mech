@@ -6,6 +6,17 @@
 	id: "1B0B45AD70F393AC"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["3410F9CF8E00ECE6"]
+		id: "628CE0BAB9C9D829"
+		tasks: [{
+			dimension: "minecraft:overworld"
+			id: "79471D636AC521F5"
+			type: "dimension"
+		}]
+		title: "主世界？空岛？？？"
+		x: 0.0d
+		y: -3.5d
+	}]
 	title: "初来乍到"
 }
