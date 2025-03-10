@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aaa"
+	group: ""
+	id: "0C18BA2FCAF82532"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "aaa"
+}
