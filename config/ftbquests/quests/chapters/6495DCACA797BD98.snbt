@@ -5,7 +5,7 @@
 	group: "2F8CCC6164B23CF5"
 	hide_quest_until_deps_complete: true
 	id: "6495DCACA797BD98"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -13,6 +13,11 @@
 			description: ["剧情会随着你游玩的进度所推进"]
 			hide_until_deps_complete: true
 			id: "5A7144AD8E85CFDF"
+			rewards: [{
+				id: "1188C0145A74D395"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "好熟悉的剧情"
 			tasks: [{
 				id: "4DD5F242EF14CA82"
@@ -27,6 +32,11 @@
 			description: ["全球的大地被-..---......... ----..---..--.- -..-....-.-.-.-. --......---.--. -.-..-.-.------ -.-..-.-..--.-- --..-...--..--- --.-.----.....-，仅剩的一片大地就你jio下的一片空岛...和你脑子里的什么系统（bushi），但是&k1111111111"]
 			hide_until_deps_complete: true
 			id: "0FC4E6FB47706B48"
+			rewards: [{
+				id: "0297F01D81FCBD93"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "豪勾石的剧情..."
 			tasks: [{
 				id: "11A487C9B8612DB1"

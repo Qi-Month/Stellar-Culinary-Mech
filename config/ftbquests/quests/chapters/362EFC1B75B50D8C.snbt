@@ -4,7 +4,7 @@
 	filename: "362EFC1B75B50D8C"
 	group: "2F8CCC6164B23CF5"
 	id: "362EFC1B75B50D8C"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -82,6 +82,11 @@
 			description: ["通俗点讲就是系统（）"]
 			hide_until_deps_complete: true
 			id: "43B5433973183638"
+			rewards: [{
+				id: "0F093632B2939E51"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "谁能拒绝一个能买能卖的商店呢？"
 			tasks: [{
 				id: "63607E8C83530337"
@@ -95,14 +100,21 @@
 			dependencies: ["43B5433973183638"]
 			hide_until_deps_complete: true
 			id: "546F6D813E2621BE"
-			rewards: [{
-				auto: "enabled"
-				command: "/gamerule keepInventory true"
-				icon: "minecraft:skeleton_skull"
-				id: "085B4B8B6C561B7B"
-				title: "高兴不掉落"
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/gamerule keepInventory true"
+					icon: "minecraft:skeleton_skull"
+					id: "085B4B8B6C561B7B"
+					title: "高兴不掉落"
+					type: "command"
+				}
+				{
+					id: "1C0EF835F0FCADAE"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "你也不希望脚滑掉进虚空什么都没有了的吧？"
 			tasks: [{
 				id: "0C8FF4661B6E745C"
@@ -116,6 +128,11 @@
 			dependencies: ["546F6D813E2621BE"]
 			hide_until_deps_complete: true
 			id: "3410F9CF8E00ECE6"
+			rewards: [{
+				id: "47F7EDDCDB8DABBB"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6C520DAA2A86068F"
 				title: "开始你的冒险吧"

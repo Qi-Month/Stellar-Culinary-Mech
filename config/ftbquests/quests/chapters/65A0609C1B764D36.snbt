@@ -13,6 +13,11 @@
 			dependencies: ["43B5433973183638"]
 			description: ["恭喜你解锁了商店系统，当然，和你想象的商场不同，在这里通常是以物换物"]
 			id: "5388623A21BBB2D5"
+			rewards: [{
+				id: "153ECF162C9A1F47"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "玩塔科夫的懂得都懂"
 			tasks: [{
 				id: "4C51125656AE24C0"
@@ -26,6 +31,11 @@
 			dependencies: ["5388623A21BBB2D5"]
 			description: ["防止真的有人那么脸黑准备的树苗补给"]
 			id: "06076FB95DAF3571"
+			rewards: [{
+				id: "7A6E5DF03E4FAEEB"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "你的脸不会那么黑的吧？"
 			tasks: [{
 				id: "2A65F963D549F2B6"
@@ -39,11 +49,18 @@
 			dependencies: ["06076FB95DAF3571"]
 			hide_until_deps_complete: true
 			id: "0CA47ABB3B8A4BBC"
-			rewards: [{
-				id: "009E7658D5F621B8"
-				item: "minecraft:oak_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "009E7658D5F621B8"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "5000AC79A71DFEBA"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "1458332B1A57D629"
@@ -57,11 +74,18 @@
 			dependencies: ["06076FB95DAF3571"]
 			hide_until_deps_complete: true
 			id: "72950F5080BB2E52"
-			rewards: [{
-				id: "2930C8ABD7F1C47B"
-				item: "minecraft:spruce_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2930C8ABD7F1C47B"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "361479AB7B320C82"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				count: 10L
 				id: "55E9A8C2B3D51D73"
@@ -75,11 +99,18 @@
 			dependencies: ["06076FB95DAF3571"]
 			hide_until_deps_complete: true
 			id: "5F467E2A946453AE"
-			rewards: [{
-				id: "11B9ADE0D677FAC0"
-				item: "minecraft:birch_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "11B9ADE0D677FAC0"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "59F5CE36A193B69A"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "2D491AD2345745E7"
@@ -93,11 +124,18 @@
 			dependencies: ["06076FB95DAF3571"]
 			hide_until_deps_complete: true
 			id: "53268EEE8BE9E886"
-			rewards: [{
-				id: "12F96D8AD2151AD3"
-				item: "minecraft:jungle_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "12F96D8AD2151AD3"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "3B706921FB7FC04A"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "2BE8B5ABD0ACDA6F"
@@ -111,11 +149,18 @@
 			dependencies: ["06076FB95DAF3571"]
 			hide_until_deps_complete: true
 			id: "03DDC8403B3CFD48"
-			rewards: [{
-				id: "3B29EF20BDB5E722"
-				item: "minecraft:acacia_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3B29EF20BDB5E722"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					id: "1E10B2DD7D442E5D"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "54E85AE79D3CBC86"
@@ -129,11 +174,18 @@
 			dependencies: ["06076FB95DAF3571"]
 			hide_until_deps_complete: true
 			id: "53AE5EB4612C588D"
-			rewards: [{
-				id: "21A8C61CB3449E1C"
-				item: "minecraft:dark_oak_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "21A8C61CB3449E1C"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "1B10BCE78BDA219E"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				count: 5L
 				id: "4772DDF7275242CD"
@@ -147,11 +199,18 @@
 			dependencies: ["06076FB95DAF3571"]
 			hide_until_deps_complete: true
 			id: "7B04ADE5DE6F99FA"
-			rewards: [{
-				id: "549051288F1FD627"
-				item: "minecraft:cherry_sapling"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "549051288F1FD627"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "1BE2600AAB7F433F"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "55129236B14687C7"
@@ -250,6 +309,11 @@
 			description: ["在黑市中，所有东西都是以物换物，毕竟末日的钱只是废纸罢了"]
 			hide_until_deps_complete: true
 			id: "5816D6917F29702C"
+			rewards: [{
+				id: "0ABD1F906EC5822E"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "在末世，钱？不过一张纸罢了"
 			tasks: [{
 				id: "15AAF49795206AAA"
