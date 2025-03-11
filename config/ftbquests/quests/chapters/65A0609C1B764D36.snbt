@@ -62,6 +62,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				count: 2L
 				id: "1458332B1A57D629"
 				item: "minecraft:oak_log"
@@ -87,6 +88,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				count: 10L
 				id: "55E9A8C2B3D51D73"
 				item: "minecraft:spruce_log"
@@ -112,6 +114,7 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				count: 2L
 				id: "2D491AD2345745E7"
 				item: "minecraft:birch_log"
@@ -137,9 +140,10 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				count: 2L
 				id: "2BE8B5ABD0ACDA6F"
-				item: { Count: 8, id: "minecraft:jungle_log" }
+				item: "minecraft:jungle_log"
 				type: "item"
 			}]
 			x: 3.0d
@@ -162,9 +166,10 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				count: 2L
 				id: "54E85AE79D3CBC86"
-				item: { Count: 2, id: "minecraft:acacia_log" }
+				item: "minecraft:acacia_log"
 				type: "item"
 			}]
 			x: 1.0d
@@ -187,9 +192,10 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				count: 5L
 				id: "4772DDF7275242CD"
-				item: { Count: 7, id: "minecraft:dark_oak_log" }
+				item: "minecraft:dark_oak_log"
 				type: "item"
 			}]
 			x: 3.0d
@@ -212,9 +218,10 @@
 				}
 			]
 			tasks: [{
+				consume_items: true
 				count: 2L
 				id: "55129236B14687C7"
-				item: { Count: 2, id: "minecraft:cherry_log" }
+				item: "minecraft:cherry_log"
 				type: "item"
 			}]
 			x: 2.0d
@@ -256,50 +263,20 @@
 				type: "choice"
 			}]
 			subtitle: "我说到做到，树苗补给"
-			tasks: [
-				{
-					count: 64L
-					id: "26BB0CE45824F335"
-					item: { Count: 64, id: "minecraft:oak_sapling" }
-					type: "item"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "26BB0CE45824F335"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:saplings"
+					}
 				}
-				{
-					count: 64L
-					id: "7A771BCD18BC2E95"
-					item: { Count: 64, id: "minecraft:spruce_sapling" }
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "4CC3E83AFD565961"
-					item: { Count: 64, id: "minecraft:birch_sapling" }
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "1D0577EEB72A3433"
-					item: { Count: 64, id: "minecraft:jungle_sapling" }
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "4CA110D17F22DB55"
-					item: { Count: 64, id: "minecraft:acacia_sapling" }
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "388AA182BD45C1CE"
-					item: { Count: 64, id: "minecraft:dark_oak_sapling" }
-					type: "item"
-				}
-				{
-					count: 64L
-					id: "10FF7872F0BAF076"
-					item: { Count: 64, id: "minecraft:cherry_sapling" }
-					type: "item"
-				}
-			]
+				title: "Any #minecraft:saplings"
+				type: "item"
+			}]
 			title: "生命多样性"
 			x: -1.0d
 			y: 1.0d

@@ -7,31 +7,158 @@
 	id: "1B0B45AD70F393AC"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["3410F9CF8E00ECE6"]
-		description: ["知周所众，木头是安慕希前期最重要的东西"]
-		id: "1B005C42153841AB"
-		rewards: [{
-			id: "7E61A0CC42774A99"
-			type: "xp"
-			xp: 10
-		}]
-		subtitle: "不是你玩迈恩夸夫特不搞木头么?"
-		tasks: [{
-			id: "564C4E7AFDFCF624"
-			item: {
-				Count: 1
-				id: "itemfilters:tag"
-				tag: {
-					value: "minecraft:logs"
+	quests: [
+		{
+			dependencies: ["3410F9CF8E00ECE6"]
+			description: ["知周所众，木头是安慕希前期最重要的东西"]
+			id: "1B005C42153841AB"
+			rewards: [{
+				id: "7E61A0CC42774A99"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "不是你玩迈恩夸夫特不搞木头么?"
+			tasks: [{
+				id: "564C4E7AFDFCF624"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
 				}
-			}
-			title: "Any #minecraft:logs"
-			type: "item"
-		}]
-		title: "获得木头！"
-		x: 0.0d
-		y: 0.0d
-	}]
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "获得木头！"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3410F9CF8E00ECE6"]
+			hide_until_deps_complete: true
+			id: "7C40D93E95A88531"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "2CEDEC4C2B5B9792"
+				type: "dimension"
+			}]
+			title: "来到这个空岛"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B005C42153841AB"]
+			description: ["你依稀记得用这种钩子钩树叶可以得到蚕...或许还能更方便摘苹果...&k11111"]
+			hide_until_deps_complete: true
+			id: "513A1CE1DE4822FC"
+			rewards: [{
+				id: "2AB6E06D657794B5"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "很奇怪的钩子..."
+			tasks: [{
+				id: "04C1973F2FB17A20"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "exdeorum:crooks"
+					}
+				}
+				title: "Any #exdeorum:crooks"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["513A1CE1DE4822FC"]
+			description: ["当你看到蚕的那一刻，你的脑海似乎想起了什么...或许可以用蚕干点什么...."]
+			hide_until_deps_complete: true
+			id: "7E5BC75940C04DC9"
+			rewards: [{
+				id: "0FA4FFEF2EDA7AD1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "烤熟了或许能吃..."
+			tasks: [{
+				id: "0DCB91C6B2BCA119"
+				item: "exdeorum:silk_worm"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E5BC75940C04DC9"]
+			description: ["你试着将蚕放在树叶上，果然，这个小家伙很快将整棵树的树叶感染"]
+			hide_until_deps_complete: true
+			id: "7D8A5FD862C4B572"
+			rewards: [{
+				id: "10AEDD64AAAE9605"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "蚕能结茧！"
+			tasks: [{
+				id: "5D25440A2460CD74"
+				title: "感染？"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D8A5FD862C4B572"]
+			description: ["你用钩子将线勾了下来...."]
+			hide_until_deps_complete: true
+			id: "53F16526E61759E5"
+			rewards: [{
+				id: "749A7437CBD69D0E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "很有用！"
+			tasks: [{
+				id: "6AF461D7541D4C18"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53F16526E61759E5"]
+			description: ["你可是史蒂夫超人！把线徒手捏成羊毛应该不是问题"]
+			hide_until_deps_complete: true
+			id: "7D0C6613EC6AC232"
+			rewards: [{
+				id: "232688CF5D83D874"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "很柔软"
+			tasks: [{
+				id: "1EC062A485A908B7"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "79DAE69E4B223A98"
+			tasks: [{
+				id: "3092EA2818225D1D"
+				item: "exdeorum:birch_sieve"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
 	title: "初来乍到"
 }
