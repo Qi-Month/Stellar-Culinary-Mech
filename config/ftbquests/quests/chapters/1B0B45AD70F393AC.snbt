@@ -6,6 +6,29 @@
 	id: "1B0B45AD70F393AC"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "1B005C42153841AB"
+		rewards: [{
+			id: "7E61A0CC42774A99"
+			type: "xp"
+			xp: 10
+		}]
+		tasks: [{
+			count: 4L
+			id: "564C4E7AFDFCF624"
+			item: {
+				Count: 1
+				id: "itemfilters:tag"
+				tag: {
+					value: "minecraft:logs"
+				}
+			}
+			title: "Any #minecraft:logs"
+			type: "item"
+		}]
+		title: "不是你玩迈恩夸夫特不搞木头么?"
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "初来乍到"
 }
