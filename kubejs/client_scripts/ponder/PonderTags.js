@@ -1,3 +1,4 @@
 Ponder.tags((event) => {
-	event.createTag("kubejs:tconstruct", "kubejs:abstruse_mechanism", "TConstruct", "Ponder Index")
+	const PI = "Ponder Index"
+	event.createTag("kubejs:tconstruct", "tconstruct:smeltery_controller", "TConstruct", PI)
 })

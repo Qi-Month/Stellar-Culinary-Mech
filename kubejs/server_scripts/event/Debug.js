@@ -48,7 +48,7 @@ PlayerEvents.chat((event) => {
 })
 
 PlayerEvents.loggedIn((event) => {
-	let { player, server } = event
+	let { player } = event
 
 	/* 
 	* 获取Tag下的所有id, 会在

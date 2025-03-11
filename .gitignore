@@ -13,7 +13,6 @@ xaero*
 saves/!Debug
 saves
 /data
-data
 modernfix
 usercache.json
 usernamecache.json
@@ -25,3 +24,4 @@ skyblockbuilder
 .idea
 星际炊事班.*
 /PCL
+/temp

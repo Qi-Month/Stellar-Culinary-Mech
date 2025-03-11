@@ -1,7 +1,12 @@
 Ponder.registry((event) => {
-	event.create("tconstruct:smeltery_controller")
+	event.create([
+		"tconstruct:smeltery_controller",
+		"tconstruct:seared_fuel_tank",
+		"tconstruct:seared_drain",
+		"tconstruct:seared_bricks"
+	])
 		.tag("kubejs:tconstruct")
-		.scene("kubejs:smeltery", "冶炼炉", "kubejs:smeltery", (scene) => {
+		.scene("kubejs:smeltery", "Smeltery", "kubejs:smeltery", (scene) => {
 			// 显示底盘
 			scene.showBasePlate()
 			scene.idle(20)
@@ -9,29 +14,29 @@ Ponder.registry((event) => {
 			// 显示炉子底部
 			scene.world.showSection([5, 1, 3, 3, 1, 5], Direction.DOWN)
 			scene.idle(20)
-			scene.text(60, "§b底部由最大为11x11的\n§b矩形焦黑砖块构成", [3, 3, 3])
+			scene.text(60, "§bThe bottom consists of a maximum of 11x11\n§bRectangular Seared Bricks composition", [3, 3, 3])
 			scene.overlay.showOutline("green", {}, [5, 1, 3, 3, 1, 5], 60)
 			scene.idle(60)
 			// 显示三个部件
 			scene.world.showSection([5, 2, 2, 3, 2, 2], Direction.SOUTH)
 			// attachKeyFrame表示直接在文字处创建关键帧
-			scene.text(35, "第二层任意方向我们依次放上\n§b燃料储罐\n§b冶炼炉控制器\n§b排液口")
+			scene.text(35, "Put the second layer in any direction\n§bFuel Tank\n§bSmeltery Controller\n§bSeared Drain")
 				.attachKeyFrame()
 			scene.idle(30)
 			scene.overlay.showOutline("blue", {}, [5, 2, 2], 30)
-			scene.text(20, "§b焦黑储罐", [4, 4.5, 0])
+			scene.text(20, "§bFuel Tank", [4, 4.5, 0])
 				.placeNearTarget()
 			scene.idle(30)
 			scene.overlay.showOutline("blue", {}, [4, 2, 2], 30)
-			scene.text(20, "§b冶炼炉控制器", [3, 4.5, 0])
+			scene.text(20, "§bSmeltery Controller", [3, 4.5, 0])
 				.placeNearTarget()
 			scene.idle(30)
 			scene.overlay.showOutline("blue", {}, [3, 2, 2], 30)
-			scene.text(20, "§b焦黑排液口", [2, 4.5, 0])
+			scene.text(20, "§bSeared Drain", [2, 4.5, 0])
 				.placeNearTarget()
 			scene.idle(40)
 
-			scene.text(30, "§b剩余的面用焦黑砖块补上\n§b同时将浇筑口也放到排液口前")
+			scene.text(30, "§bThe rest of the surface we fill with bricks\n§bAt the same time, put faucet in front of drain.")
 				.attachKeyFrame()
 			// 显示各砖块
 			let bricks = [
@@ -54,7 +59,7 @@ Ponder.registry((event) => {
 			scene.idle(40)
 
 			//加高
-			scene.text(30, "§b此外,我们也可以用砖块继续搭高")
+			scene.text(30, "§bIn addition, we can also use bricks to continue to build high.")
 				.attachKeyFrame()
 			// 显示各砖块
 			let brick_1 = [
@@ -101,7 +106,7 @@ Ponder.registry((event) => {
 			// 提示
 			scene.addKeyframe()
 			scene.overlay.showOutline("red", {}, [5, 2, 2], 60)
-			scene.text(40, "§c记得给储罐加上燃料哦", [4, 4.5, 0])
+			scene.text(40, "§cFinally, remember to import fuel to Fuel Tank", [4, 4.5, 0])
 				.placeNearTarget()
 			scene.idle(60)
 		})

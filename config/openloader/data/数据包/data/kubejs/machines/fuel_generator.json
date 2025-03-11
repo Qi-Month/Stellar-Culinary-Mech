@@ -1,0 +1,109 @@
+{
+	"name": "block.kubejs.fuel_generator",
+	"appearance": {
+		"idle": {
+			"block": "minecraft:block/furnace"
+		},
+		"running": {
+			"block": "minecraft:block/furnace"
+		},
+		"errored": {
+			"block": "minecraft:block/furnace"
+		},
+		"paused": {
+			"block": "minecraft:block/furnace"
+		},
+		"interaction_sound": "minecraft:iron_block",
+		"requires_tool": true,
+		"mining_level": "minecraft:needs_stone_tool"
+	},
+	"components": [
+		{
+			"type": "custommachinery:energy",
+			"id": "output",
+			"mode": "output",
+			"capacity": 200000,
+			"config": {
+				"default": "both"
+			}
+		},
+		{
+			"type": "custommachinery:fluid",
+			"id": "input",
+			"mode": "input",
+			"capacity": 10000,
+			"maxInput": 1000,
+			"maxOutput": 1000
+		}
+	],
+	"gui": [
+		{
+			"type": "custommachinery:texture",
+			"texture": "custommachinery:textures/gui/base_background.png",
+			"x": 0,
+			"y": 0
+		},
+		{
+			"type": "custommachinery:player_inventory",
+			"x": 47,
+			"y": 80
+		},
+		{
+			"type": "custommachinery:progress",
+			"x": 110,
+			"y": 45
+		},
+		{
+			"type": "custommachinery:status",
+			"x": 236,
+			"y": 5
+		},
+		{
+			"type": "custommachinery:fluid",
+			"id": "input",
+			"x": 85,
+			"y": 30
+		},
+		{
+			"type": "custommachinery:energy",
+			"id": "output",
+			"x": 140,
+			"y": 30
+		}
+	],
+	"jei": [
+		{
+			"type": "custommachinery:texture",
+			"texture": "custommachinery:textures/gui/base_background.png",
+			"x": 0,
+			"y": 0
+		},
+		{
+			"type": "custommachinery:player_inventory",
+			"x": 47,
+			"y": 80
+		},
+		{
+			"type": "custommachinery:progress",
+			"x": 110,
+			"y": 45
+		},
+		{
+			"type": "custommachinery:status",
+			"x": 236,
+			"y": 5
+		},
+		{
+			"type": "custommachinery:fluid",
+			"id": "input",
+			"x": 85,
+			"y": 30
+		},
+		{
+			"type": "custommachinery:energy",
+			"id": "output",
+			"x": 140,
+			"y": 30
+		}
+	]
+}
