@@ -1,0 +1,264 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "65A0609C1B764D36"
+	group: "2F8CCC6164B23CF5"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:chest"
+	id: "65A0609C1B764D36"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["43B5433973183638"]
+			description: ["恭喜你解锁了商店系统，当然，和你想象的商场不同，在这里通常是以物换物"]
+			id: "5388623A21BBB2D5"
+			subtitle: "玩塔科夫的懂得都懂"
+			tasks: [{
+				id: "4C51125656AE24C0"
+				title: "黑商（跳槽市场）"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5388623A21BBB2D5"]
+			description: ["防止真的有人那么脸黑准备的树苗补给"]
+			id: "06076FB95DAF3571"
+			subtitle: "你的脸不会那么黑的吧？"
+			tasks: [{
+				id: "2A65F963D549F2B6"
+				type: "checkmark"
+			}]
+			title: "防止脸黑不掉树苗"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["06076FB95DAF3571"]
+			hide_until_deps_complete: true
+			id: "0CA47ABB3B8A4BBC"
+			rewards: [{
+				id: "009E7658D5F621B8"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1458332B1A57D629"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06076FB95DAF3571"]
+			hide_until_deps_complete: true
+			id: "72950F5080BB2E52"
+			rewards: [{
+				id: "2930C8ABD7F1C47B"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "55E9A8C2B3D51D73"
+				item: "minecraft:spruce_log"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06076FB95DAF3571"]
+			hide_until_deps_complete: true
+			id: "5F467E2A946453AE"
+			rewards: [{
+				id: "11B9ADE0D677FAC0"
+				item: "minecraft:birch_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "2D491AD2345745E7"
+				item: "minecraft:birch_log"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06076FB95DAF3571"]
+			hide_until_deps_complete: true
+			id: "53268EEE8BE9E886"
+			rewards: [{
+				id: "12F96D8AD2151AD3"
+				item: "minecraft:jungle_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "2BE8B5ABD0ACDA6F"
+				item: { Count: 8, id: "minecraft:jungle_log" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06076FB95DAF3571"]
+			hide_until_deps_complete: true
+			id: "03DDC8403B3CFD48"
+			rewards: [{
+				id: "3B29EF20BDB5E722"
+				item: "minecraft:acacia_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "54E85AE79D3CBC86"
+				item: { Count: 2, id: "minecraft:acacia_log" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06076FB95DAF3571"]
+			hide_until_deps_complete: true
+			id: "53AE5EB4612C588D"
+			rewards: [{
+				id: "21A8C61CB3449E1C"
+				item: "minecraft:dark_oak_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "4772DDF7275242CD"
+				item: { Count: 7, id: "minecraft:dark_oak_log" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06076FB95DAF3571"]
+			hide_until_deps_complete: true
+			id: "7B04ADE5DE6F99FA"
+			rewards: [{
+				id: "549051288F1FD627"
+				item: "minecraft:cherry_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "55129236B14687C7"
+				item: { Count: 2, id: "minecraft:cherry_log" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5388623A21BBB2D5"]
+			hide_until_deps_complete: true
+			id: "52E55EF67F2F254D"
+			rewards: [{
+				id: "17E10119EAC55A2B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "约法三章！"
+			tasks: [{
+				id: "5F105D19020966ED"
+				title: "正式开始交易"
+				type: "checkmark"
+			}]
+			title: "正式开始交易前..."
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"52E55EF67F2F254D"
+				"2BC38CE70E7DD35E"
+			]
+			dependency_requirement: "one_completed"
+			description: ["什么？你嫌太黑？那就自己去搓,这里可是黑市，不黑还叫什么黑市"]
+			hide_until_deps_complete: true
+			id: "122A05071239F91A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F18E51EECC2F553"
+				table_id: 5951448982410208937L
+				type: "choice"
+			}]
+			subtitle: "我说到做到，树苗补给"
+			tasks: [
+				{
+					count: 64L
+					id: "26BB0CE45824F335"
+					item: { Count: 64, id: "minecraft:oak_sapling" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7A771BCD18BC2E95"
+					item: { Count: 64, id: "minecraft:spruce_sapling" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4CC3E83AFD565961"
+					item: { Count: 64, id: "minecraft:birch_sapling" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "1D0577EEB72A3433"
+					item: { Count: 64, id: "minecraft:jungle_sapling" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4CA110D17F22DB55"
+					item: { Count: 64, id: "minecraft:acacia_sapling" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "388AA182BD45C1CE"
+					item: { Count: 64, id: "minecraft:dark_oak_sapling" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "10FF7872F0BAF076"
+					item: { Count: 64, id: "minecraft:cherry_sapling" }
+					type: "item"
+				}
+			]
+			title: "生命多样性"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52E55EF67F2F254D"]
+			description: ["在黑市中，所有东西都是以物换物，毕竟末日的钱只是废纸罢了"]
+			hide_until_deps_complete: true
+			id: "5816D6917F29702C"
+			subtitle: "在末世，钱？不过一张纸罢了"
+			tasks: [{
+				id: "15AAF49795206AAA"
+				title: "以物换物"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+	]
+	title: "黑市"
+}

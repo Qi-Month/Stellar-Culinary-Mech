@@ -1,0 +1,42 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6495DCACA797BD98"
+	group: "2F8CCC6164B23CF5"
+	hide_quest_until_deps_complete: true
+	id: "6495DCACA797BD98"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["56FB365FFAF351E0"]
+			description: ["剧情会随着你游玩的进度所推进"]
+			hide_until_deps_complete: true
+			id: "5A7144AD8E85CFDF"
+			subtitle: "好熟悉的剧情"
+			tasks: [{
+				id: "4DD5F242EF14CA82"
+				title: "末日？"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A7144AD8E85CFDF"]
+			description: ["全球的大地被-..---......... ----..---..--.- -..-....-.-.-.-. --......---.--. -.-..-.-.------ -.-..-.-..--.-- --..-...--..--- --.-.----.....-，仅剩的一片大地就你jio下的一片空岛...和你脑子里的什么系统（bushi），但是&k1111111111"]
+			hide_until_deps_complete: true
+			id: "0FC4E6FB47706B48"
+			subtitle: "豪勾石的剧情..."
+			tasks: [{
+				id: "11A487C9B8612DB1"
+				title: "1"
+				type: "checkmark"
+			}]
+			title: "残缺的记忆碎片1"
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "星际炊事班-剧情"
+}

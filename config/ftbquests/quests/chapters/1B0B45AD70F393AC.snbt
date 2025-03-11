@@ -3,18 +3,21 @@
 	default_quest_shape: ""
 	filename: "1B0B45AD70F393AC"
 	group: "2F8CCC6164B23CF5"
+	hide_quest_until_deps_complete: true
 	id: "1B0B45AD70F393AC"
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["3410F9CF8E00ECE6"]
+		description: ["知周所众，木头是安慕希前期最重要的东西"]
 		id: "1B005C42153841AB"
 		rewards: [{
 			id: "7E61A0CC42774A99"
 			type: "xp"
 			xp: 10
 		}]
+		subtitle: "不是你玩迈恩夸夫特不搞木头么?"
 		tasks: [{
-			count: 4L
 			id: "564C4E7AFDFCF624"
 			item: {
 				Count: 1
@@ -26,7 +29,7 @@
 			title: "Any #minecraft:logs"
 			type: "item"
 		}]
-		title: "不是你玩迈恩夸夫特不搞木头么?"
+		title: "获得木头！"
 		x: 0.0d
 		y: 0.0d
 	}]
