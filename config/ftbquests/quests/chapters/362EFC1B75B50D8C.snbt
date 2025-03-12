@@ -53,7 +53,7 @@
 			]
 			description: [
 				"主策划：白狐（b站搜白狐awa）"
-				"魔改：一位不愿透露姓名的大蛇"
+				"魔改：一位不愿透露姓名的大蛇，猫猫"
 				" "
 			]
 			hide_until_deps_complete: true
@@ -168,6 +168,42 @@
 			}]
 			x: 4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3410F9CF8E00ECE6"]
+			hide_until_deps_complete: true
+			id: "0521D9724D5EB73B"
+			rewards: [{
+				id: "5C891519849C048F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2CFE7771B804451A"
+				title: "操作须知"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0521D9724D5EB73B"]
+			description: ["请查看自己的按键配置，默认为背包状态下按r查看配方，u查看用途，非背包情况请查看配置，建议esc取消绑定，因为没什么大用..."]
+			hide_until_deps_complete: true
+			id: "48D110DD9CF0D85B"
+			rewards: [{
+				id: "0FD04ACFDBBD7726"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "好东西..."
+			tasks: [{
+				id: "19647285D57638E2"
+				title: "jei"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.5d
 		}
 	]
 	title: "星际炊事班—前言"

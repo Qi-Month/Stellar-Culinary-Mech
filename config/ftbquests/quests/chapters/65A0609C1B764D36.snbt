@@ -252,7 +252,6 @@
 				"52E55EF67F2F254D"
 				"2BC38CE70E7DD35E"
 			]
-			dependency_requirement: "one_completed"
 			description: ["什么？你嫌太黑？那就自己去搓,这里可是黑市，不黑还叫什么黑市"]
 			hide_until_deps_complete: true
 			id: "122A05071239F91A"

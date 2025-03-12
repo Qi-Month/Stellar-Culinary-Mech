@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "198A10B9FFF54A1E"
+	group: "2F8CCC6164B23CF5"
+	hide_quest_until_deps_complete: true
+	id: "198A10B9FFF54A1E"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["29F1AC3F46E6CE4A"]
+		description: ["按下按钮启动此章节"]
+		hide_until_deps_complete: true
+		id: "1B5A5384EE3E8C8E"
+		rewards: [{
+			id: "5BCB82B51ABC31DE"
+			type: "xp"
+			xp: 10
+		}]
+		subtitle: "你慢慢的不再是一位原始人"
+		tasks: [{
+			id: "1F2EB7AE74159B31"
+			title: "科技"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "原始人"
+}
