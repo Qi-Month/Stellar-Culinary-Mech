@@ -1,9 +1,4 @@
 ClientEvents.lang("zh_cn", (event) => {
-	addAloneLanguage("itemGroup." + global.namespace + ".all", "星级炊事班")
-
-	addMachineLanguage("thermal_generator", "火力发电机")
-	addMachineLanguage("fuel_generator", "燃油发电机")
-
 	function addAloneLanguage(key, value) {
 		event.add(key, value)
 	}
@@ -25,4 +20,9 @@ ClientEvents.lang("zh_cn", (event) => {
 		event.add(`block.${global.namespace}.${key}`, value)
 		event.add(`machine.${global.namespace}.${key}`, value)
 	}
+
+	addAloneLanguage("itemGroup." + global.namespace + ".all", "星级炊事班")
+
+	addMachineLanguage("thermal_generator", "火力发电机")
+	addMachineLanguage("fuel_generator", "燃油发电机")
 })
