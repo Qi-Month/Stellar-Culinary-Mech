@@ -31,7 +31,7 @@
 				type: "item"
 			}]
 			title: "获得木头！"
-			x: -1.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -44,7 +44,7 @@
 				type: "dimension"
 			}]
 			title: "来到这个空岛"
-			x: 0.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -70,7 +70,7 @@
 				title: "Any #exdeorum:crooks"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -89,7 +89,7 @@
 				item: "exdeorum:silk_worm"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -108,7 +108,7 @@
 				title: "感染？"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -127,7 +127,7 @@
 				item: "minecraft:string"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -146,12 +146,13 @@
 				item: "minecraft:white_wool"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.5d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["53F16526E61759E5"]
+			dependencies: ["432C5E9526032714"]
 			description: ["木头制作的筛子，并不是很结实，只能筛一些软的东西..."]
+			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "38E95A3E071027AE"
 			rewards: [{
@@ -160,6 +161,18 @@
 				xp: 10
 			}]
 			subtitle: "淘金热！"
+			tasks: [{
+				id: "3EBAC64F11DFFBFE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "exdeorum:small_sieves"
+					}
+				}
+				title: "Any #exdeorum:small_sieves"
+				type: "item"
+			}]
 			title: "筛子"
 			x: 11.0d
 			y: 0.0d
@@ -196,6 +209,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "gear"
 			subtitle: "看起来不是很结实..."
 			tasks: [{
 				id: "5036A834CEF9A6A9"
@@ -216,6 +230,18 @@
 				xp: 10
 			}]
 			subtitle: "相当结实"
+			tasks: [{
+				id: "7E0C0C74E7859BD4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "exdeorum:compressed_sieves"
+					}
+				}
+				title: "Any #exdeorum:compressed_sieves"
+				type: "item"
+			}]
 			title: "压缩筛子？"
 			x: 11.0d
 			y: 2.0d
@@ -231,7 +257,7 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -596,6 +622,18 @@
 			}]
 			x: 19.0d
 			y: 12.5d
+		}
+		{
+			description: ["{image:kubejs:textures/images/1.png width:84 height:147 align:center}"]
+			id: "596C5DB64E5DE0F3"
+			subtitle: "蚕:"
+			tasks: [{
+				id: "697E7C316F9F0C89"
+				item: "exdeorum:cooked_silk_worm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
 		}
 	]
 	title: "初来乍到"

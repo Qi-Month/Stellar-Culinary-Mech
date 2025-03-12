@@ -394,6 +394,12 @@
     },
     "done": false
   },
+  "exdeorum:core/root": {
+    "criteria": {
+      "in_void_world": "2025-03-11 21:49:48 +0800"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/bridge_torch": {
     "criteria": {
       "has_planks": "2025-03-11 21:49:55 +0800"
@@ -403,12 +409,6 @@
   "vintageimprovements:root": {
     "criteria": {
       "0": "2025-03-11 21:49:55 +0800"
-    },
-    "done": true
-  },
-  "exdeorum:core/root": {
-    "criteria": {
-      "in_void_world": "2025-03-11 21:49:48 +0800"
     },
     "done": true
   },
