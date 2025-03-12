@@ -624,8 +624,18 @@
 			y: 12.5d
 		}
 		{
+			dependencies: [
+				"7E5BC75940C04DC9"
+				"18CD5D132E1F7107"
+			]
 			description: ["{image:kubejs:textures/images/1.png width:84 height:147 align:center}"]
+			hide_until_deps_complete: true
 			id: "596C5DB64E5DE0F3"
+			rewards: [{
+				id: "70B5B12E0E58A116"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "蚕:"
 			tasks: [{
 				id: "697E7C316F9F0C89"
@@ -633,7 +643,45 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EB9D6820079870C"]
+			hide_until_deps_complete: true
+			id: "18CD5D132E1F7107"
+			rewards: [{
+				id: "065B57CC3B0B6A94"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "热门话题"
+			tasks: [{
+				id: "325E5BF08DE06D3E"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3255F1CB0694D3BB"]
+			description: ["用锄头或铲子右键砂土即可转换为泥土"]
+			hide_until_deps_complete: true
+			id: "451F92ECDB9DA590"
+			rewards: [{
+				id: "4188C7F21CA4F95E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "希望你不是薅的，最好是真的通过转化而来（）"
+			tasks: [{
+				count: 4L
+				id: "13436877888F419F"
+				item: { Count: 4, id: "minecraft:dirt" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.0d
 		}
 	]
 	title: "初来乍到"
