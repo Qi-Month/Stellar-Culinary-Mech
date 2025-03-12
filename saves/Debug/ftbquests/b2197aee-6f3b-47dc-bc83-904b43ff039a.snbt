@@ -1,0 +1,25 @@
+{
+	version: 1
+	uuid: "b2197aee6f3b47dcbc83904b43ff039a"
+	name: "baihuawa#b2197aee"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: {
+		0C3FA87BE0A936E9: 1741775581373L
+		79DAE69E4B223A98: 1741775581373L
+		05DD1D1CAC311AFA: 1741778190138L
+		7ED56735F58EAADC: 1741778190138L
+	}
+	completed: {
+		0C3FA87BE0A936E9: 1741775581389L
+		05DD1D1CAC311AFA: 1741778190138L
+		7ED56735F58EAADC: 1741778190138L
+	}
+	claimed_rewards: { }
+	player_data: {
+		b2197aee6f3b47dcbc83904b43ff039a: {
+			can_edit: 1b
+		}
+	}
+}
