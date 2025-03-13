@@ -71,16 +71,17 @@ PlayerEvents.loggedIn((event) => {
 // 查看方块硬度(潜行+右键方块)
 BlockEvents.rightClicked((event) => {
 	let { player } = event
+	let apple = "minecraft:apple"
 
 	let blockState = event.getBlock().getBlockState()
 	let pos = event.getBlock().getPos()
 	let blockHardness = blockState.getDestroySpeed(event.getLevel(), pos)
 
 	for (let i = 0; i < global.debugUserName.length; i++) {
-		if (event.hand !== "MAIN_HAND" &&
+		if (player.mainHandItem === apple &&
 			player.crouching &&
 			player.username === global.debugUserName[i]) {
-			player.tell(Text.translate("message." + global.namespace + ".debug.getHardness", [blockHardness]))
+			player.tell(Component.translate(`message.${global.namespace}.debug.getHardness`, [blockHardness]))
 		}
 	}
 })

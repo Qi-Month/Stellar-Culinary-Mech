@@ -147,12 +147,11 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["432C5E9526032714"]
 			description: ["木头制作的筛子，并不是很结实，只能筛一些软的东西..."]
-			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			id: "38E95A3E071027AE"
 			rewards: [{
@@ -218,33 +217,6 @@
 			}]
 			x: 9.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["38E95A3E071027AE"]
-			description: ["这种筛子很结实，或许能够筛一些压缩方块...当然，用它就不能筛一些普通方块了..."]
-			hide_until_deps_complete: true
-			id: "7223735D105CFA9D"
-			rewards: [{
-				id: "6C6FAC1EFAF9DE73"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "相当结实"
-			tasks: [{
-				id: "7E0C0C74E7859BD4"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "exdeorum:compressed_sieves"
-					}
-				}
-				title: "Any #exdeorum:compressed_sieves"
-				type: "item"
-			}]
-			title: "压缩筛子？"
-			x: 11.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["1B005C42153841AB"]
@@ -643,7 +615,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6EB9D6820079870C"]
@@ -661,7 +633,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3255F1CB0694D3BB"]
@@ -682,6 +654,31 @@
 			}]
 			x: 23.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["38E95A3E071027AE"]
+			id: "73915D806926029B"
+			rewards: [{
+				id: "5A17A2DED6546237"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "相当好用, 对吗(?)"
+			tasks: [{
+				id: "4A83510DCC370DDA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "exdeorum:compressed_sieves"
+					}
+				}
+				title: "Any #exdeorum:compressed_sieves"
+				type: "item"
+			}]
+			title: "压缩筛子"
+			x: 11.0d
+			y: -1.5d
 		}
 	]
 	title: "初来乍到"

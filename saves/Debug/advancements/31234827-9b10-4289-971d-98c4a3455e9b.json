@@ -412,5 +412,101 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-03-13 07:53:17 +0800"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/oak_crucible": {
+    "criteria": {
+      "has_item": "2025-03-13 07:53:17 +0800"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/oak_barrel": {
+    "criteria": {
+      "has_item": "2025-03-13 07:53:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2025-03-13 07:53:17 +0800"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/oak_banister": {
+    "criteria": {
+      "has_item": "2025-03-13 07:53:17 +0800"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/cobblestone": {
+    "criteria": {
+      "has_item": "2025-03-13 08:02:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-03-13 08:13:05 +0800"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/granite": {
+    "criteria": {
+      "has_item": "2025-03-13 08:14:49 +0800"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/blackstone": {
+    "criteria": {
+      "has_item": "2025-03-13 08:14:49 +0800"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/cobbled_deepslate": {
+    "criteria": {
+      "has_item": "2025-03-13 08:14:49 +0800"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/andesite": {
+    "criteria": {
+      "has_item": "2025-03-13 08:16:23 +0800"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/diorite": {
+    "criteria": {
+      "has_item": "2025-03-13 08:16:26 +0800"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/tuff": {
+    "criteria": {
+      "has_item": "2025-03-13 08:26:54 +0800"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/basalt": {
+    "criteria": {
+      "has_item": "2025-03-13 08:26:54 +0800"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/calcite": {
+    "criteria": {
+      "has_item": "2025-03-13 08:32:54 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2025-03-13 08:37:46 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
