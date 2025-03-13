@@ -11,8 +11,9 @@ BlockEvents.rightClicked((event) => {
 		"minecraft:rooted_dirt"
 	]
 
-	// 空手, 潜行, 概率50%
-	if (player.mainHandItem !== "MAIN_HAND" && player.crouching && Math.random() < 0.5) {
+	// 空手, 潜行, 概率40%
+	if (player.mainHandItem !== "MAIN_HAND" && player.crouching && Math.random() < 0.4) {
+		// 右键动画
 		player.swing()
 		
 		dirtGroup.forEach((dirt) => {

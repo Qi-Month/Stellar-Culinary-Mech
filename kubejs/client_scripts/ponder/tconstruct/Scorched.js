@@ -6,7 +6,7 @@ Ponder.registry((event) => {
 		"tconstruct:scorched_fuel_tank"
 	])
 		.tag("kubejs:tconstruct")
-		.scene("kubejs:scorched", "Foundry", "kubejs:scorched", (scene) => {
+		.scene("kubejs:scorched", "Foundry", "kubejs:tconstruct/scorched", (scene) => {
 			// 显示场景底盘
 			scene.showBasePlate()
 			scene.idle(20)
@@ -14,31 +14,31 @@ Ponder.registry((event) => {
 			// 显示底部
 			scene.world.showSection([6, 1, 2, 2, 1, 6], Direction.DOWN)
 			scene.idle(20)
-			scene.text(50, "§bThe bottom consists of a maximum of 16x16\n§bRectangular Scorched Bricks composition", [3, 3, 3])
+			scene.text(50, "The bottom consists of a maximum of 16x16\nRectangular Scorched Bricks composition", [3, 3, 3])
 			scene.overlay.showOutline("red", {}, [6, 1, 2, 2, 1, 6], 60)
 			scene.idle(60)
 			// 显示三部件
 			scene.world.showSection([4, 2, 2, 2, 2, 2], Direction.DOWN)
-			scene.text(35, "Put the second layer in any direction\n§bFoundry Controller\n§bFuel Tank\n§bScorched Drain")
+			scene.text(35, "Put the second layer in any direction\nFoundry Controller\nFuel Tank\nScorched Drain")
 				.attachKeyFrame()
 			scene.idle(30)
 			// 控制器
 			scene.overlay.showOutline("red", {}, [4, 2, 2], 30)
-			scene.text(20, "§bFoundry Controller", [4.5, 2.5, 2])
+			scene.text(20, "Foundry Controller", [4.5, 2.5, 2])
 				.placeNearTarget()
 			scene.idle(30)
 			// 燃料储罐
 			scene.overlay.showOutline("red", {}, [3, 2, 2], 30)
-			scene.text(20, "§bFuel Tank", [3.5, 2.5, 2])
+			scene.text(20, "Fuel Tank", [3.5, 2.5, 2])
 				.placeNearTarget()
 			scene.idle(30)
 			// 排液口
 			scene.overlay.showOutline("red", {}, [2, 2, 2], 30)
-			scene.text(20, "§bScorched Drain", [2.5, 2.5, 2])
+			scene.text(20, "Scorched Drain", [2.5, 2.5, 2])
 				.placeNearTarget()
 			scene.idle(30)
 
-			scene.text(30, "§bThe rest of the surface we fill with bricks\n§bAt the same time, put faucet in front of drain.")
+			scene.text(30, "The rest of the surface we fill with bricks\nAt the same time, put faucet in front of drain.")
 				.attachKeyFrame()
 
 			// 显示各砖块
@@ -61,7 +61,7 @@ Ponder.registry((event) => {
 			scene.world.showSection([2, 1, 1], Direction.DOWN)
 			scene.idle(40)
 			// 增高
-			scene.text(30, "§bIn addition, we can also use bricks to continue to build high.")
+			scene.text(30, "In addition, we can also use bricks to continue to build high.")
 				.attachKeyFrame()
 			// 显示各砖块
 			let brick_1 = [
@@ -108,7 +108,7 @@ Ponder.registry((event) => {
 
 			scene.addKeyframe()
 			scene.overlay.showOutline("red", {}, [3, 2, 2], 60)
-			scene.text(40, "§cFinally, remember to import fuel to Fuel Tank", [3.5, 2.5, 2])
+			scene.text(40, "Finally, remember to import fuel to Fuel Tank", [3.5, 2.5, 2])
 				.placeNearTarget()
 			scene.idle(20)
 		})
