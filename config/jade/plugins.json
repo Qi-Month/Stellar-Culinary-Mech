@@ -51,12 +51,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "exdeorum": {
-    "infested_leaves": true,
-    "barrel": true,
-    "crucible": true,
-    "sieve": true
-  },
   "immersiveengineering": {
     "multiblock_icon": true
   },
@@ -98,6 +92,12 @@
     "slurry": true,
     "energy": true,
     "tooltip_renderer": true
+  },
+  "exnihilosequentia": {
+    "barrel": true,
+    "crucible": true,
+    "sieve": true,
+    "infesting_leaves": true
   },
   "pipez": {
     "pipe": true
