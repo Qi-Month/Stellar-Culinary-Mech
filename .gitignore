@@ -10,8 +10,7 @@ rhino*
 options.txt
 xaero*
 .vscode
-saves/!Debug
-saves
+/saves/!Debug
 /data
 modernfix
 usercache.json

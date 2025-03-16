@@ -53,18 +53,15 @@ ServerEvents.recipes(event => {
 		const multiplier = isAdvanced ? 2 : 1
 
 			;[false, true].forEach((waterlogged) => {
-				const outputs = (waterlogged
-					? base.waterloggedOutputs
-					: base.normalOutputs
-				).map((output) => Item.of(output.item)
-					.withChance(output.chance * multiplier)
-					.withCount(output.count || 1)
-				)
+				const outputs = (waterlogged ? base.waterloggedOutputs : base.normalOutputs)
+					.map((output) => Item.of(output.item)
+						.withChance(output.chance * multiplier)
+						.withCount(output.count || 1)
+					)
 
 				createsifter.sifting(
 					outputs,
-					base.input,
-					meshId,
+					[base.input, meshId],
 					processingTime,
 					waterlogged
 				)
