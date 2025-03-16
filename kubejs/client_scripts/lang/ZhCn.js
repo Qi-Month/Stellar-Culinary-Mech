@@ -1,6 +1,12 @@
 ClientEvents.lang("zh_cn", (event) => {
 	addNuggetItemLanguage("andesite_alloy", "安山合金")
 
+	addSifterMesuLanguage("string", "线")
+	addSifterMesuLanguage("flint", "燧石")
+	addSifterMesuLanguage("iron", "铁")
+	addSifterMesuLanguage("golden", "金")
+	addSifterMesuLanguage("diamond", "钻石")
+
 	addMaterialFluidLanguage("andesite_alloy", "安山合金")
 	addMaterialFluidLanguage("sky_stone", "陨石")
 	addMaterialFluidLanguage("unstable_sky_stone", "不稳定陨石")
@@ -21,6 +27,11 @@ ClientEvents.lang("zh_cn", (event) => {
 
 	function addNuggetItemLanguage(key, value) {
 		event.add(`item.${global.namespace}.${key}_nugget`, `${value}粒`)
+	}
+
+	function addSifterMesuLanguage(key, value) {
+		event.add(`item.${global.namespace}.${key}_mesu`, `${value}筛网`)
+		event.add(`item.${global.namespace}.advanced_${key}_mesu`, `高级${value}筛网`)
 	}
 
 	function addBlockLanguage(key, value) {

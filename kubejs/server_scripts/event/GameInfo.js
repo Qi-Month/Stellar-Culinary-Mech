@@ -32,7 +32,7 @@ PlayerEvents.loggedIn((event) => {
 					x: 10,
 					y: "$screenH - 20",
 					alignX: "left",
-					text: "Alpha-0.1",
+					text: "Alpha - 0.1",
 					scale: 1.0
 				}
 			})

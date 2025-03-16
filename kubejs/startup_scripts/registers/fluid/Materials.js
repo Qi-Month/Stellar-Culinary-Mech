@@ -1,6 +1,6 @@
 StartupEvents.registry("fluid", (event) => {
 	let path = "block/fluid/"
-	let otherFluidRegisters = `${global.namespace}:${path}`
+	let fluidRegisters = `${global.namespace}:${path}`
 
 	addColorMaterialFluid("andesite_alloy", 0xA7AD9F)
 
@@ -11,11 +11,12 @@ StartupEvents.registry("fluid", (event) => {
 		event.create(`${global.namespace}:molten_${name}`)
 			.thinTexture(color)
 			.bucketColor(color)
-			.flowingTexture(otherFluidRegisters + "flowing")
-			.stillTexture(otherFluidRegisters + "still")
+			.flowingTexture(`${fluidRegisters}flowing`)
+			.stillTexture(`${fluidRegisters}still`)
 			.tag("forge:molten_materials")
 			.tag(`forge:molten_${name}`)
 			.tag(`tconstruct:molten_${name}`)
+			.tag("minecraft:lava")
 
 		// 生成Json模型文件
 		JsonIO.write(`kubejs/assets/${global.namespace}/models/item/molten_${name}_bucket.json`, {
@@ -29,11 +30,12 @@ StartupEvents.registry("fluid", (event) => {
 
 	function addAloneMaterialFluid(name) {
 		event.create(`${global.namespace}:molten_${name}`)
-			.flowingTexture(`${otherFluidRegisters + name}_flowing`)
-			.stillTexture(`${otherFluidRegisters + name}_still`)
+			.flowingTexture(`${fluidRegisters + name}_flowing`)
+			.stillTexture(`${fluidRegisters + name}_still`)
 			.tag("forge:molten_materials")
 			.tag(`forge:molten_${name}`)
 			.tag(`tconstruct:molten_${name}`)
+			.tag("minecraft:lava")
 
 		// 生成Json模型文件
 		JsonIO.write(`kubejs/assets/${global.namespace}/models/item/molten_${name}_bucket.json`, {
