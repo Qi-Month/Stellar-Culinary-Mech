@@ -1,9 +1,8 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
 	let { createsifter } = event.recipes
 
 	let recipes = [
-		// 添加配方
-		//砂砾
+		// 砂砾
 		{
 			input: "#forge:gravel",
 			mesh: "string",
@@ -44,13 +43,13 @@ ServerEvents.recipes(event => {
 				{ item: "create:crushed_raw_iron", chance: 0.15 },
 				{ item: "minecraft:coal", chance: 0.16 },
 				{ item: "minecraft:lapis_lazuli", chance: 0.10 },
-				{ item: "create:crushed_raw_zinc", chance: 0.16}
+				{ item: "create:crushed_raw_zinc", chance: 0.16 }
 			],
 			waterloggedOutputs: [
 				{ item: "create:crushed_raw_iron", chance: 0.24 },
 				{ item: "minecraft:coal", chance: 0.16 },
 				{ item: "minecraft:lapis_lazuli", chance: 0.06 },
-				{ item: "create:crushed_raw_zinc", chance: 0.24}
+				{ item: "create:crushed_raw_zinc", chance: 0.24 }
 			]
 		},
 		{
@@ -85,7 +84,7 @@ ServerEvents.recipes(event => {
 				{ item: "create:crushed_raw_zinc", chance: 0.24 },
 				{ item: "createoreexcavation:raw_diamond", chance: 0.03 },
 				{ item: "createoreexcavation:raw_emerald", chance: 0.03 },
-				{ item: "minecraft:glowstone_dust", chance:0.20 }
+				{ item: "minecraft:glowstone_dust", chance: 0.20 }
 			],
 			waterloggedOutputs: [
 				{ item: "create:crushed_raw_iron", chance: 0.30 },
@@ -96,7 +95,7 @@ ServerEvents.recipes(event => {
 				{ item: "createoreexcavation:raw_emerald", chance: 0.05 }
 			]
 		},
-		//泥土
+		// 泥土
 		{
 			input: "#minecraft:dirt",
 			mesh: "string",
@@ -109,7 +108,7 @@ ServerEvents.recipes(event => {
 				{ item: "minecraft:acacia_sapling", chance: 0.15 },
 				{ item: "minecraft:cherry_sapling", chance: 0.15 },
 				{ item: "minecraft:dark_oak_sapling", chance: 0.15 },
-				//种子
+				// 种子
 				{ item: "minecraft:wheat_seeds", chance: 0.15 },
 				{ item: "minecraft:pumpkin_seeds", chance: 0.15 },
 				{ item: "minecraft:melon_seeds", chance: 0.15 },
@@ -136,7 +135,7 @@ ServerEvents.recipes(event => {
 				{ item: "minecraft:acacia_sapling", chance: 0.10 },
 				{ item: "minecraft:cherry_sapling", chance: 0.10 },
 				{ item: "minecraft:dark_oak_sapling", chance: 0.10 },
-				//种子
+				// 种子
 				{ item: "minecraft:wheat_seeds", chance: 0.20 },
 				{ item: "minecraft:pumpkin_seeds", chance: 0.20 },
 				{ item: "minecraft:melon_seeds", chance: 0.20 },
@@ -156,7 +155,7 @@ ServerEvents.recipes(event => {
 				{ item: "youkaishomecoming:redbean", chance: 0.20 },
 			]
 		},
-		//沙子
+		// 沙子
 		{
 			input: "#forge:sand",
 			mesh: "string",
@@ -276,21 +275,20 @@ ServerEvents.recipes(event => {
 			? Math.floor(base.processingTime / 2)
 			: base.processingTime
 
-		const multiplier = isAdvanced ? 2 : 1
-
-			;[false, true].forEach((waterlogged) => {
-				const outputs = (waterlogged ? base.waterloggedOutputs : base.normalOutputs)
-					.map((output) => Item.of(output.item)
-						.withChance(output.chance * multiplier)
-						.withCount(output.count || 1)
-					)
-
-				createsifter.sifting(
-					outputs,
-					[base.input, meshId],
-					processingTime,
-					waterlogged
+		const multiplier = isAdvanced ? 2 : 1;
+		[false, true].forEach((waterlogged) => {
+			const outputs = (waterlogged ? base.waterloggedOutputs : base.normalOutputs)
+				.map((output) => Item.of(output.item)
+					.withChance(output.chance * multiplier)
+					.withCount(output.count || 1)
 				)
-			})
+
+			createsifter.sifting(
+				outputs,
+				[base.input, meshId],
+				processingTime,
+				waterlogged
+			)
+		})
 	}
 })
