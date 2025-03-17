@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "68e01af2575547ccabadae03756f811a"
+	name: "toleave#68e01af2"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

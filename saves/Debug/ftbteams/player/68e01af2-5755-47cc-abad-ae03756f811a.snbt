@@ -1,0 +1,17 @@
+{
+	id: "68e01af2-5755-47cc-abad-ae03756f811a"
+	type: "player"
+	player_name: "toleave"
+	ranks: {
+		68e01af2-5755-47cc-abad-ae03756f811a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "toleave"
+		"ftbteams:description": ""
+		"ftbteams:color": "#9959FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
