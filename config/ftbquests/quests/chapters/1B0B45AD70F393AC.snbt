@@ -11,6 +11,7 @@
 		{
 			dependencies: ["3410F9CF8E00ECE6"]
 			description: ["知周所众，木头是安慕希前期最重要的东西"]
+			hide_until_deps_complete: true
 			id: "1B005C42153841AB"
 			rewards: [{
 				id: "7E61A0CC42774A99"
@@ -48,177 +49,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["5706C77541CB114D"]
-			description: ["钩子钩树叶可以得到蚕...或许还能更方便摘苹果...&k11111"]
-			hide_until_deps_complete: true
-			id: "513A1CE1DE4822FC"
-			rewards: [{
-				id: "2AB6E06D657794B5"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "很奇怪的钩子..."
-			tasks: [{
-				id: "04C1973F2FB17A20"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "exdeorum:crooks"
-					}
-				}
-				title: "Any #exdeorum:crooks"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["513A1CE1DE4822FC"]
-			description: ["烤了尝尝？"]
-			hide_until_deps_complete: true
-			id: "7E5BC75940C04DC9"
-			rewards: [{
-				id: "0FA4FFEF2EDA7AD1"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "烤熟了或许能吃..."
-			tasks: [{
-				id: "0DCB91C6B2BCA119"
-				item: "exdeorum:silk_worm"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7E5BC75940C04DC9"]
-			description: ["这个小家伙能很快将整棵树的树叶感染"]
-			hide_until_deps_complete: true
-			id: "7D8A5FD862C4B572"
-			rewards: [{
-				id: "10AEDD64AAAE9605"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "蚕能结茧！"
-			tasks: [{
-				id: "5D25440A2460CD74"
-				title: "感染？"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7D8A5FD862C4B572"]
-			description: ["或许可以用钩子从被感染的叶子上钩下来...."]
-			hide_until_deps_complete: true
-			id: "53F16526E61759E5"
-			rewards: [{
-				id: "749A7437CBD69D0E"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "很有用！"
-			tasks: [{
-				id: "6AF461D7541D4C18"
-				item: "minecraft:string"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["53F16526E61759E5"]
-			description: ["你可是史蒂夫超人！把线徒手捏成羊毛应该不是问题"]
-			hide_until_deps_complete: true
-			id: "7D0C6613EC6AC232"
-			rewards: [{
-				id: "232688CF5D83D874"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "很柔软"
-			tasks: [{
-				id: "1EC062A485A908B7"
-				item: "minecraft:white_wool"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["432C5E9526032714"]
-			description: ["木头制作的筛子，并不是很结实，只能筛一些软的东西..."]
-			hide_until_deps_complete: true
-			id: "38E95A3E071027AE"
-			rewards: [{
-				id: "6FBB81E8BF89FAD8"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "淘金热！"
-			tasks: [{
-				id: "3EBAC64F11DFFBFE"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "exdeorum:small_sieves"
-					}
-				}
-				title: "Any #exdeorum:small_sieves"
-				type: "item"
-			}]
-			title: "筛子"
-			x: 11.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"38E95A3E071027AE"
-				"432C5E9526032714"
-			]
-			description: ["泥土中似乎有一些小石子..."]
-			hide_until_deps_complete: true
-			id: "7FCA0A8809F04371"
-			rewards: [{
-				id: "70732D1F52D6723F"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "无中生有？"
-			tasks: [{
-				id: "662D22DC34E38126"
-				item: "exdeorum:stone_pebble"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["53F16526E61759E5"]
-			description: ["并不结实的筛网，只能筛一些泥土..."]
-			hide_until_deps_complete: true
-			id: "432C5E9526032714"
-			rewards: [{
-				id: "17D22C4A02A2B441"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "gear"
-			subtitle: "看起来不是很结实..."
-			tasks: [{
-				id: "5036A834CEF9A6A9"
-				item: "exdeorum:string_mesh"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["1B005C42153841AB"]
 			description: ["万物制作离不开工作台！"]
 			hide_until_deps_complete: true
@@ -233,452 +63,316 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"432C5E9526032714"
-				"4827ABE6AD744FCD"
+			dependencies: ["5706C77541CB114D"]
+			description: [
+				"木头做的，并不太坚固...可以手动驱动它"
+				"{image: width:100 height:100 align:center}"
+				"看什么看，合成表都给你了（）"
 			]
-			description: ["爆率很低？或许你需要考虑下这个，更结实的筛网，使用24k纯燧石制作，可以筛一些被敲碎的东西..."]
 			hide_until_deps_complete: true
-			id: "01F9870E60E93B97"
+			id: "472CF1258DE65417"
 			rewards: [{
-				id: "1EB3383362FD7F7D"
+				id: "5937F21D6597B91F"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "很扎手！"
-			tasks: [{
-				id: "0FD4F773A18A8C33"
-				item: "exdeorum:flint_mesh"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 4.0d
+			subtitle: "木头的加工"
+			title: "筛子"
+			x: 1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["7FCA0A8809F04371"]
-			description: ["没错！你可以把4个小石子徒手捏成圆石！"]
+			dependencies: ["472CF1258DE65417"]
+			description: ["别做梦了，地上如果有用不完的石子还要刷石机干嘛"]
 			hide_until_deps_complete: true
-			id: "6EB9D6820079870C"
+			id: "79131A5CCC448F81"
 			rewards: [{
-				id: "6C0920E08E17C446"
+				id: "09D9B34DA52743EA"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "石器时代！"
+			subtitle: "你好像做了一场梦"
 			tasks: [{
-				id: "117F4672E49FFAE2"
+				id: "2D036A3E7AF9C666"
+				title: "地上的石子？"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D556E0E27B7AE61"]
+			description: ["树叶或许能堆成泥土？"]
+			hide_until_deps_complete: true
+			id: "5CF2CC90E63210D3"
+			rewards: [{
+				id: "6556B419D91E4C63"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "不仅仅能堆肥"
+			tasks: [
+				{
+					id: "6473B5E52AA40470"
+					item: "minecraft:composter"
+					type: "item"
+				}
+				{
+					id: "1768E5DCDBEE176D"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["472CF1258DE65417"]
+			description: ["耐久低且用来剪树叶还不一定成功（ps：50%的概率失败哦）"]
+			hide_until_deps_complete: true
+			id: "6D556E0E27B7AE61"
+			rewards: [{
+				id: "656FF142E1519514"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "并不好用"
+			tasks: [{
+				consume_items: false
+				id: "45B5CA0BD4B11A67"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:leaves"
+					}
+				}
+				title: "Any #minecraft:leaves"
+				type: "item"
+			}]
+			title: "木剪刀"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"472CF1258DE65417"
+				"5CF2CC90E63210D3"
+			]
+			description: ["4个石子可以捏成一块石头，当然，这很河里"]
+			hide_until_deps_complete: true
+			id: "0772088D31E1E3C0"
+			rewards: [{
+				id: "017AA3EEF1D5F89F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "硬邦邦的"
+			tasks: [{
+				id: "432BA04C8BF3BB3E"
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			x: 15.0d
+			title: "石子"
+			x: 6.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6EB9D6820079870C"]
-			description: ["大锤子！用于敲碎某些东西..."]
+			dependencies: ["0772088D31E1E3C0"]
+			description: ["石器作为你的第一套工具，木头当然不可以当工具用啦"]
 			hide_until_deps_complete: true
-			id: "1840F7A2E9C91021"
-			rewards: [{
-				id: "3EF2BC26E452F2BC"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "八十！！！"
-			tasks: [{
-				id: "6588FF0F1CD332E2"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "exdeorum:hammers"
-					}
+			id: "76694CB665C7EBB5"
+			rewards: [
+				{
+					count: 3
+					id: "092A290BB5CBEEA0"
+					item: "minecraft:bread"
+					type: "item"
 				}
-				title: "Any #exdeorum:hammers"
-				type: "item"
-			}]
-			title: "锤子！"
-			x: 17.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1840F7A2E9C91021"]
-			description: ["石头被你敲碎..."]
-			hide_until_deps_complete: true
-			id: "02887B29575F6785"
-			rewards: [{
-				id: "246B69D47E68BAD3"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "敲的稀碎！"
-			tasks: [{
-				id: "3C485645EF516968"
-				item: "minecraft:gravel"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["02887B29575F6785"]
-			description: ["或许砂土可以复制泥土？"]
-			hide_until_deps_complete: true
-			id: "3255F1CB0694D3BB"
-			rewards: [{
-				id: "7318A4AC8054B43E"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "等价交换！"
-			tasks: [{
-				count: 4L
-				id: "6923F407B3FD863D"
-				item: { Count: 4, id: "minecraft:coarse_dirt" }
-				type: "item"
-			}]
-			x: 21.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["02887B29575F6785"]
-			description: ["或许可以用来生火或者升级你的筛网..."]
-			hide_until_deps_complete: true
-			id: "4827ABE6AD744FCD"
-			rewards: [{
-				id: "6F861638F6BB3981"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "脑袋尖尖的"
-			tasks: [{
-				id: "45C89E09F9D7C74E"
-				item: "minecraft:flint"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["02887B29575F6785"]
-			description: ["沙砾里似乎有一些矿物？"]
-			hide_until_deps_complete: true
-			id: "37D0B1EDB16AAAE0"
-			rewards: [{
-				id: "6EFE23E6806449F1"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "无中生有？"
-			tasks: [{
-				id: "35D3504EFE6631C9"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "exdeorum:ore_chunks"
-					}
+				{
+					id: "7F96D4F9592E4426"
+					type: "xp"
+					xp: 10
 				}
-				title: "Any #exdeorum:ore_chunks"
-				type: "item"
-			}]
-			title: "矿物碎块"
-			x: 19.0d
-			y: 6.0d
+			]
+			subtitle: "工具"
+			tasks: [
+				{
+					id: "10AAB53B38F9F871"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5804A4380C255F3D"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37A50428D2E7B017"
+					item: {
+						Count: 1
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "石器时代"
+			x: 8.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["37D0B1EDB16AAAE0"]
+			dependencies: ["76694CB665C7EBB5"]
+			description: ["海岛嘛，当然没有地下矿物储备啦"]
 			hide_until_deps_complete: true
-			id: "539FA354D96C50A9"
+			icon: "minecraft:barrier"
+			id: "5C216825AC5B469F"
+			subtitle: "矿物？"
 			tasks: [{
-				id: "5917CF0528AB70EA"
-				item: "exdeorum:iron_ore_chunk"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "75B71A3D88754125"
-			tasks: [{
-				id: "1168EEA1F6879BAC"
-				item: "exdeorum:copper_ore_chunk"
-				type: "item"
-			}]
-			x: 18.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "68FAA40B352DBD10"
-			tasks: [{
-				id: "65D5F73FF396BB0D"
-				item: "exdeorum:gold_ore_chunk"
-				type: "item"
-			}]
-			x: 20.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "636AD856641FA1AA"
-			tasks: [{
-				id: "63E6281BD6EF58FD"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			x: 21.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "71C9228A7669E44D"
-			tasks: [{
-				id: "2EDAE8321C028D01"
-				item: "minecraft:lapis_lazuli"
-				type: "item"
-			}]
-			x: 22.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "59DA80A2C5E4F38E"
-			tasks: [{
-				id: "1D08FDCDC5609376"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			x: 23.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "2ECAE0CDE9D5CFBD"
-			tasks: [{
-				id: "0759D1BB1AD3CA79"
-				item: "exdeorum:zinc_ore_chunk"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "5C864ABC912AA66E"
-			tasks: [{
-				id: "6C120EAD98F49136"
-				item: "exdeorum:silver_ore_chunk"
-				type: "item"
-			}]
-			x: 16.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "6E049213F1577EC5"
-			tasks: [{
-				id: "7C71A4608A77D62B"
-				item: "exdeorum:tin_ore_chunk"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "20CE92FAD896D920"
-			tasks: [{
-				id: "581CEECEF84E7CC1"
-				item: "exdeorum:osmium_ore_chunk"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "58EC57F5475364ED"
-			tasks: [{
-				id: "6DD9B897734C8F38"
-				item: "exdeorum:lead_ore_chunk"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "2B22506593414DE1"
-			tasks: [{
-				id: "29EB81868EF1B3A2"
-				item: "exdeorum:nickel_ore_chunk"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "1715F4C18E0583BE"
-			tasks: [{
-				id: "39C7F9B9C09E2502"
-				item: "exdeorum:aluminum_ore_chunk"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "466161A8C56031BF"
-			tasks: [{
-				id: "7DB9C94F6EF66235"
-				item: "exdeorum:cobalt_ore_chunk"
-				type: "item"
-			}]
-			x: 24.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "78D70BCD32E5D7ED"
-			tasks: [{
-				id: "63B286E9F9E9AAB1"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			x: 25.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "2853AAA40E364E3C"
-			tasks: [{
-				id: "2806FFE65C76224C"
-				item: "minecraft:amethyst_shard"
-				type: "item"
-			}]
-			x: 26.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["37D0B1EDB16AAAE0"]
-			hide_until_deps_complete: true
-			id: "29F1AC3F46E6CE4A"
-			rewards: [{
-				id: "4B1573CBA9F6A636"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "步入科技"
-			tasks: [{
-				id: "43688DA5D37A0E84"
-				title: "第二章"
+				id: "4BE1C4C0BF502901"
+				title: "达咩"
 				type: "checkmark"
 			}]
-			x: 19.0d
-			y: 12.5d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
-				"7E5BC75940C04DC9"
-				"18CD5D132E1F7107"
+				"472CF1258DE65417"
+				"76694CB665C7EBB5"
+				"0772088D31E1E3C0"
 			]
-			description: ["{image:kubejs:textures/images/1.png width:84 height:147 align:center}"]
+			description: ["用石镐右键圆石试试？"]
 			hide_until_deps_complete: true
-			id: "596C5DB64E5DE0F3"
+			id: "4ED02F09E3A36D61"
 			rewards: [{
-				id: "70B5B12E0E58A116"
+				id: "6F387F4A1428C454"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "蚕:"
+			subtitle: "敲得粉碎！"
 			tasks: [{
-				id: "697E7C316F9F0C89"
-				item: "exdeorum:cooked_silk_worm"
+				id: "1769F6E6BD4D84AC"
+				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["6EB9D6820079870C"]
+			dependencies: [
+				"4ED02F09E3A36D61"
+				"472CF1258DE65417"
+			]
+			description: ["概率极低，20%"]
 			hide_until_deps_complete: true
-			id: "18CD5D132E1F7107"
+			id: "6C706EC3F63C9560"
 			rewards: [{
-				id: "065B57CC3B0B6A94"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "热门话题"
-			tasks: [{
-				id: "325E5BF08DE06D3E"
-				item: "minecraft:furnace"
-				type: "item"
-			}]
-			x: 15.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3255F1CB0694D3BB"]
-			description: ["用锄头或铲子右键砂土即可转换为泥土"]
-			hide_until_deps_complete: true
-			id: "451F92ECDB9DA590"
-			rewards: [{
-				id: "4188C7F21CA4F95E"
+				id: "11A49BAEA431A8C2"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "希望你不是薅的，最好是真的通过转化而来（）"
+			subtitle: "出来了！"
 			tasks: [{
-				count: 4L
-				id: "13436877888F419F"
-				item: { Count: 4, id: "minecraft:dirt" }
+				id: "481900C522CAC2EB"
+				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 0.0d
+			title: "金属"
+			x: 6.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["38E95A3E071027AE"]
-			id: "73915D806926029B"
+			dependencies: ["6C706EC3F63C9560"]
+			description: ["哈哈，没想到熔炉配方也被改了吧！（其实就是中间多一块原木）"]
+			hide_until_deps_complete: true
+			id: "2670B86C72C0B9CB"
 			rewards: [{
-				id: "5A17A2DED6546237"
+				id: "1B2C748B5B687CBE"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "相当好用, 对吗(?)"
+			subtitle: "不一样"
 			tasks: [{
-				id: "4A83510DCC370DDA"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "exdeorum:compressed_sieves"
-					}
-				}
-				title: "Any #exdeorum:compressed_sieves"
+				id: "2A0CBA9FF51C79A2"
+				item: "minecraft:furnace"
 				type: "item"
 			}]
-			title: "压缩筛子"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["2670B86C72C0B9CB"]
+			description: ["对，你的铁杂质太多了，所以真正的铁只有这么一小粒"]
+			hide_until_deps_complete: true
+			id: "3D388705EEABF23B"
+			rewards: [{
+				id: "35B98F7D5DD24B75"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "杂质过多"
+			tasks: [{
+				id: "7D525B29EACAB148"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
 			x: 11.0d
-			y: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5706C77541CB114D"]
+			description: ["使用一根木棍可以制作！"]
+			hide_until_deps_complete: true
+			id: "5917E8196E739C06"
+			rewards: [{
+				id: "64E5A383C3ACF168"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "当然是灭的"
+			tasks: [{
+				id: "2B17D62F7BC91737"
+				item: "ad_astra:extinguished_torch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5917E8196E739C06"]
+			description: ["双手各拿一根木棍，对着火把右键即可（ps：火把打掉也不会熄灭哦）"]
+			hide_until_deps_complete: true
+			id: "4D6927F095999070"
+			rewards: [{
+				count: 5
+				id: "676D12A4596E63F3"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "摩擦起火"
+			tasks: [{
+				id: "50820ADE36DDF1D9"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
 		}
 	]
 	title: "初来乍到"

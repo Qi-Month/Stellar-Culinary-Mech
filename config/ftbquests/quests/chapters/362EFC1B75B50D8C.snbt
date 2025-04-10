@@ -53,7 +53,8 @@
 			]
 			description: [
 				"主策划：白狐（b站搜白狐awa）"
-				"魔改：一位不愿透露姓名的大蛇，猫猫"
+				"魔改：一位不愿透露姓名的大蛇"
+				"叶桐猫猫"
 				" "
 			]
 			hide_until_deps_complete: true
@@ -146,20 +147,11 @@
 			description: ["允许开作弊模式是因为任务需求，请尽量补药使用任何指令"]
 			hide_until_deps_complete: true
 			id: "30C4B4CEEAC9CDFC"
-			rewards: [
-				{
-					auto: "enabled"
-					description: ""
-					id: "2DE85C21829AA49A"
-					title: "作弊者，斩！"
-					type: "toast"
-				}
-				{
-					id: "4B4C26D6395EBEE7"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "4B4C26D6395EBEE7"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "你这家伙，补药老作弊啊喂"
 			tasks: [{
 				id: "7942537611746C9A"
